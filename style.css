@@ -10,10 +10,10 @@ body {
 #left-container {
   left: 0px;
   }
-  #right-container {
+#right-container {
   right: 0px;
   }
-  .container {
+.container {
   background-color: #eee;
   width: 15%;
   top: 0px;
@@ -32,10 +32,17 @@ body {
 
 .plant {
   position: absolute;
-  max-width: 150%;
-  max-height: 150%;
+  width: 100%;
+  height: auto;
   z-index: 2;
 
+}
+
+#terrarium .plant {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  cursor: pointer;
 }
 
 .jar-walls {
